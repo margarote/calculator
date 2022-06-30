@@ -1,4 +1,4 @@
-import 'package:calculator/modules/calculator/calculator_screen.dart';
+import '../calculator/calculator_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

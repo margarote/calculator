@@ -1,4 +1,4 @@
-import 'package:calculator/modules/calculator/usecases/get_size_text_button.dart';
+import '../usecases/get_size_text_button.dart';
 import 'package:flutter/material.dart';
 
 Widget buttonCalculatorWidget({
@@ -15,7 +15,7 @@ Widget buttonCalculatorWidget({
     child: GestureDetector(
       onTap: onTap,
       child: Container(
-        width: sizeFull ? MediaQuery.of(context).size.width * .7 : sizeButton,
+        width: sizeFull ? 360 : sizeButton,
         height: sizeFull ? 60 : sizeButton,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(100),
